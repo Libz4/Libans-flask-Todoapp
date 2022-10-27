@@ -19,7 +19,7 @@ pipeline{
             }
          tage('deploy'){
                 steps{
-                    sh "python3 -m app.py --cov"    
+                    sh "python3 -m pytest --cov"    
                         
                 }
             }             
