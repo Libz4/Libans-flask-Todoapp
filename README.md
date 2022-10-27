@@ -1,4 +1,3 @@
-# ToDo-WebApp
-by Liban
+# ToDo-WebApp by Liban
 
 
