@@ -28,8 +28,7 @@ This is a DFE/QA cloud specialism final project. The objective for this project 
 
 ## Application
 
-
-
+For this Project, I have developed a Flask Web app that helps users plan their daily schedule. By using a database, users can add, view, update, and delete to-do items, it also allows users to keep track of what the have and have not completed.
 
 
 <!-- ROADMAP -->
