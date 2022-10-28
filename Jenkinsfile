@@ -5,7 +5,6 @@
              sh "https://github.com/Libz4/ToDo-WebApp.git"
     }
    stage('Build Docker') {
-        // build the docker image from the source code using the BUILD_ID parameter in image name
           sh "sudo docker build -t flask-app ."
     }
     stage("run docker container"){
