@@ -81,11 +81,13 @@ As detailed below, I used Jira to manage and track this project:
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- LICENSE -->
 ## Risk assessment
+
+My risk assessment is detailed below:
 
 ![Screenshot (16)](https://user-images.githubusercontent.com/111815447/198510528-6417d998-e244-43c0-a096-eb640279523b.png)
 
