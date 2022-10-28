@@ -21,14 +21,14 @@ This is a DFE/QA cloud specialism final project. The objective for this project 
 
 * Project Management
 
-* Testing
+* CI/CD Pipeline
 
-* Risk assessment
+* Risk Assessment
 
 
 ## Application
 
-For this project, I have developed a Flask web app that helps users plan their daily schedule, by using sqlite. Users can add, view, update, and delete to-do items on their homepage. Users are also able to keep track of what they have and have not completed with a statusbar which turns green when completed and red when not completed.
+For this project, I have developed a Flask web app that helps users plan their daily schedule. Users can add, view, update, and delete to-do items on their homepage. Users are also able to keep track of what they have and have not completed with a statusbar which turns green when completed and red when not completed.
 
 <!-- ROADMAP -->
 ## Design
