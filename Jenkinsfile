@@ -1,11 +1,11 @@
  pipeline{
         agent any
-//        stages{
-//            stage('Clone'){
-//                steps{
-//                    sh "https://github.com/Libz4/ToDo-WebApp.git"
-//                }
-//            }
+        stages{
+            stage('Clone'){
+                steps{
+                    sh "https://github.com/Libz4/ToDo-WebApp.git"
+                }
+            }
 
 
             stage('Copy Files & Folders'){
