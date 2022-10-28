@@ -68,6 +68,11 @@ As detailed below, I used Jira to manage and track this project:
 
 ![Screenshot (9)](https://user-images.githubusercontent.com/111815447/198513738-88a3710b-6a67-4d3d-8127-4592c8864d48.png)
 
+![Screenshot (14)](https://user-images.githubusercontent.com/111815447/198514312-077f87bd-a656-4587-bf0a-2b16032be048.png)
+
+![Screenshot (15)](https://user-images.githubusercontent.com/111815447/198514395-1271a50e-f376-4d62-a906-ca4b0e4dbd83.png)
+
+
 
 
 
