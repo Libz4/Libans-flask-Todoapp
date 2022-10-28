@@ -6,8 +6,7 @@
                     sh "https://github.com/Libz4/ToDo-WebApp.git"
                 }
             }
-
-
+         
             stage('Copy Files & Folders'){
                 steps{
                     sh "cp app.py /home/azureuser/ToDoWA"
@@ -19,15 +18,11 @@
                 }
             }
 
-
-
             stage('Navigate to Project dir'){
                 steps{
                     sh "cd /home/azureuser/ToDoWA"
                 }
             }
-
-
 
             stage('Build Docker') {
                 steps{
