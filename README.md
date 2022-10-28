@@ -85,7 +85,7 @@ As detailed below, I used Jira to manage and track this project:
 
 
 <!-- LICENSE -->
-## Risk assessment
+## Risk Assessment
 
 My risk assessment is detailed below:
 
