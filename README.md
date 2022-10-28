@@ -81,6 +81,12 @@ MoSCoW prioritisation below:
 <!-- CONTACT -->
 ## CI/CD Pipeline
 
+As stated in the Project brief, I created a CI/CD pipeline using Jenkins. To achieve this, I first set up an Azure Virtual machine running Linux ubuntu 20.04. I then installed Jenkins and Docker on it. I then pushed my project from Visual studio code on my local computer to a GitHub respiratory, which I named (ToDo-Webapp). I then set up a Jenkins pipeline by creating a Jenkins file in my GitHub respiratory (ToDo-Webapp) and copying my Respiratory URL into the pipeline job in Jenkins so that I could clone, copy, and set up files and folders from my GitHub respiratory to the Azure virtual machine so that the Docker container could then be built and run.
+
+![Screenshot (25)](https://user-images.githubusercontent.com/111815447/198723120-fa1b7169-b2c3-4704-9fdb-0d3c3d612938.png)
+
+![Screenshot (22)](https://user-images.githubusercontent.com/111815447/198722990-e00ffd5a-1847-4c91-a73e-6b02f0e656ac.png)
+
 ![Screenshot (21)](https://user-images.githubusercontent.com/111815447/198717557-27374c62-6882-4fb4-a54d-ec0c0fc29044.png)
 
 
