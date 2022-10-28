@@ -1,4 +1,5 @@
- node {
+ pipeline{
+     agent any
      stages{
      stage('Clone'){
              sh "https://github.com/Libz4/ToDo-WebApp.git"
