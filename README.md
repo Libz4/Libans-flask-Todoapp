@@ -79,8 +79,9 @@ MoSCoW prioritisation below:
 
 
 <!-- CONTACT -->
-## Testing
+## CI/CD Pipeline
 
+![Screenshot (21)](https://user-images.githubusercontent.com/111815447/198717557-27374c62-6882-4fb4-a54d-ec0c0fc29044.png)
 
 
 
