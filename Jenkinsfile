@@ -8,19 +8,22 @@
             }
 
 
-            stage('copy files'){
+            stage('Copy files'){
                 steps{
-                    sh "cp app.py /home/jenkins/.jenkins/workspace/ToDo-WebApp"
-                    sh "cp requirements.txt /home/jenkins/.jenkins/workspace/ToDo-WebApp"
-                    sh "cp -r /home/jenkins/.jenkins/workspace/ToDo-WebApp"
+                    sh "cp app.py /home/azureuser/ToDoWA"
+                    sh "cp requirements.txt /home/azureuser/ToDoWA"
+                    sh "cp -r /home/jenkins/.jenkins/workspace/ToDo-WebApp/instance /home/azureuser/ToDoWA"
+                    sh "cp -r /home/jenkins/.jenkins/workspace/ToDo-WebApp/__pycache__/ /home/azureuser/ToDoWA"
+                    sh "cp -r /home/jenkins/.jenkins/workspace/ToDo-WebApp/templates/ /home/azureuser/ToDoWA"
+                    sh "cp -r /home/jenkins/.jenkins/workspace/ToDo-WebApp/venv/ /home/azureuser/ToDoWA"
                 }
             }
 
 
 
-            stage('change foler to home'){
+            stage('Navigate to Project dir'){
                 steps{
-                    sh "cd /home/jenkins/.jenkins/workspace/ToDo-WebApp"
+                    sh "cd /home/azureuser/ToDoWA"
                 }
             }
 
@@ -28,7 +31,7 @@
 
             stage('Build Docker') {
                 steps{
-                    sh "docker build -t flask-app /home/jenkins/.jenkins/workspace/ToDo-WebApp"
+                    sh "docker build -t flask-app /home/azureuser/ToDoWA"
                 }
             }
             stage("run docker container"){
