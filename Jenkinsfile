@@ -8,7 +8,7 @@
             }
 
 
-            stage('Copy files'){
+            stage('Copy Files & Folders'){
                 steps{
                     sh "cp app.py /home/azureuser/ToDoWA"
                     sh "cp requirements.txt /home/azureuser/ToDoWA"
