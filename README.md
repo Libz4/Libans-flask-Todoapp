@@ -52,6 +52,11 @@ This is a DFE/QA cloud specialism final project. The objective for this project 
 <!-- CONTRIBUTING -->
 ## Architecture
 
+Below is my ERD, showing a one-to-many relationship:
+
+![Screenshot (8)](https://user-images.githubusercontent.com/111815447/198511292-35098ea4-3380-4368-8b9a-af29ed603fc6.png)
+
+
 
 
 
@@ -75,5 +80,6 @@ This is a DFE/QA cloud specialism final project. The objective for this project 
 <!-- LICENSE -->
 ## Risk assessment
 
+![Screenshot (16)](https://user-images.githubusercontent.com/111815447/198510528-6417d998-e244-43c0-a096-eb640279523b.png)
 
 
